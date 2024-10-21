@@ -22,6 +22,9 @@ body {
     padding: 0;
     background-color: #f2f2f2;
 }
+#badgesBodyMobile{
+    flex-direction:column;
+}
 
 .container {
     width: 100%;
@@ -43,6 +46,11 @@ header {
     padding: 10px;
     background-color: #f7f7f7;
 }
+.poze {
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
 
 .icon {
     text-align: center;
@@ -52,9 +60,10 @@ header {
 }
 
 .icon img {
-    width: 95%;
+    width: 9%;
     height: auto;
 }
+.
 
 .icon span {
     display: block;
@@ -94,10 +103,10 @@ footer {
 .nav {
             display: flex;
             justify-content: space-around;
-            width: 100%;
+            width: 10%;
         }
         .responsive-image {
-            width: 95%;
+            width: 9%;
             height: auto; /* Maintain aspect ratio */
         }
         tr:nth-child(odd) {
@@ -115,24 +124,31 @@ width: 50%; /* or any other percentage */
 </style>
 <body>
         <header>
-            <h1> <img  style="width: 50%;text-align: left ;" src="zlogo_AgendaElectronica_white.png" alt=""  src="OIP-removebg-preview.png" style="width: 10%; text-align: right;"  alt=""></h1>
+            <h1> <img  style="width: 50%;text-align: left ; padding-bottom: ;" src="zlogo_AgendaElectronica_white.png" alt=""  src="OIP-removebg-preview.png" style="width: 10%; text-align: right;"  alt=""></h1>
         </header>
         
         
         <div class="Down">
-                <a href="#agenda" ;  ;><img src="Babl.png" style="width: 100%; height: 80px;" alt=""></a>
-                
-           
+               
+                <table>
+                    <thead>
+                    <tr class="icons" class="poze"  style="padding-left: 5%;">
+                      <a href="Agenda.html"> <th style="background-color: #0099cc; border-radius: 7px; text-align: center; color: #f2f2f2; font-size: small;"><img src="paginapublica_agenda.png" style="width: 100%; " alt="">Agenda</th> </a>
+                      <a href="Dosar.html"> <th style="background-color: #ffc34d; border-radius: 7px; text-align: center; color: #f2f2f2; font-size: small;"><img src="paginapublica_dosar.png"  style="width: 100%;" alt="">Dosar</th> </a>
+                      <a href="Absente.html"> <th style="background-color: #ff704d; border-radius: 7px; text-align: center; color: #f2f2f2; font-size: small;"><img src="paginapublica_absente.png"  style="width: 100%;" alt="">Absenţe</th> </a>
+                      <a href="index.html"> <th style="background-color: #224b77; border-radius: 7px; text-align: center; color: #f2f2f2; font-size: small;"><img src="paginapublica_rezultate.png "  style="width: 100%;" alt="">Reușita</th> </a>
+                    </tr>
+                </thead>
+                </table>
         
-
         
-          
             <table>
                 <thead >
                         </tr>
                             <tr> <h1 style="background: #31a0df;width: 100%; font-size:large; text-align: left;padding: 10px; padding-left: 20px; color: white;"> Semestrul I</h1></tr>
                     <tr style=" border: #d4a7a7;">
-                        <th style="font-size: small;: center;">Disciplina</th>
+                        <th style="font-size: small;">Disciplina</th>
+                    
                         <th style="font-size: smaller;;">Lista notelor</th>
                         <th style="font-size: smaller;text-align: center;">Media semestrială</th>
                     </tr>
